@@ -1,0 +1,18 @@
+//Method 1
+sliding window:
+
+i, j=0;
+sum = nums[i]+...num[j];
+j++ untill sum>=s;
+then result = sum length, j stop, i++, untill sum<s;
+
+time O(2n) space O(1)
+
+//Method 2
+Prefix then Binary Search, time O(nlogn)
+cause every element > 0, so use binary search;
+
+lower_bound: Returns an iterator pointing to the first element in the range [first,last) which does not compare less than val.
+
+
+

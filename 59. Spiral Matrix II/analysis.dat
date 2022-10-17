@@ -1,0 +1,6 @@
+
+思路:
+
+n*n的二维vector of vector
+
+把1~n*n的数填到相应的位置上去
