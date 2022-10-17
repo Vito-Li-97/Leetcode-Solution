@@ -1,3 +1,3 @@
 # Leetcode-Solution
 
-固体力学博士，学习leetcode刷题记录
+一名固体力学博士的leetcode刷题记录
