@@ -2,6 +2,10 @@
 
 一名固体力学博士的leetcode刷题记录
 
-Interview Questions 面试题
+:smiling_imp:（被PUSH科研的情况下坚持学习CS，读研究生的懂得都懂）
 
-LCOF                剑指offer
+:star:Interview Questions 面试题
+
+:star:LCOF                剑指offer
+
+重复的题目文件夹名字最后的序号代表第几次刷这个题（没有序号就是第一次）
