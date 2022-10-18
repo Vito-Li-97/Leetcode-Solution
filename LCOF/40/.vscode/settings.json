@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.in": "lmps",
+        "vector": "cpp",
+        "functional": "cpp",
+        "algorithm": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
+    }
+}
