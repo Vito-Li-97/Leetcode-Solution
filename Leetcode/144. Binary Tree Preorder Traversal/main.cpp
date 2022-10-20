@@ -30,21 +30,6 @@ class Solution {  // Recursive
   }
 };
 
-void CreatBiTree(TreeNode *&T) {  // 先序递归创建二叉树
-  // 先按顺序驶入二叉树中节点的值(一个字符),空格字符代表空树
-  char ch;
-  for (int j = 0; j < 13; ++j) {
-    if ((ch = getchar()) == '#')
-      T = nullptr;
-    else {
-      T = new TreeNode;       // 产生新的子树
-      T->val = ch;            // 由getchar()逐个读进来
-      CreatBiTree(T->left);   // 递归创建左子树
-      CreatBiTree(T->right);  // 递归创建右子树
-    }
-  }
-}
-
 int main() {
   TreeNode *root = new TreeNode(1);
   root->left = nullptr;
