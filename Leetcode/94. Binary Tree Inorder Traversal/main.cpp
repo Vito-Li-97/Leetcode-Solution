@@ -16,7 +16,8 @@ struct TreeNode {
 class Solution {  // 给定一个二叉树的根节点 root ，返回 它的 中序 遍历 。
  public:
   // 方法一：递归
-  // O(n); O(n); 节点数n
+  // O(n);
+  // O(n); 节点数n
   void travIn_R(TreeNode *root, vector<int> &result) {
     if (!root) {
       return;
@@ -33,7 +34,8 @@ class Solution {  // 给定一个二叉树的根节点 root ，返回 它的 中
   }
 
   // 方法二：迭代
-  // O(n); 最坏O(n); 节点数n
+  // O(n);
+  // 最坏O(n); 节点数n
   // 每到一个节点 A，因为根的访问在中间，将 A 入栈。然后遍历左子树，接着访问 A，最后遍历右子树。
   // 在访问完 A 后，A 就可以出栈了。因为 A 和其左子树都已经访问完成。
   vector<int> inorderTraversal_2(TreeNode *root) {
