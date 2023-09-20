@@ -2,8 +2,6 @@
 
 一名固体力学博士的leetcode刷题记录
 
-:smiling_imp:（被吊人剥削PUSH科研的情况下坚持学习CS，读研究生的懂得都懂）
-
 :star:Interview Questions 面试题
 
 :star:LCOF                剑指offer
