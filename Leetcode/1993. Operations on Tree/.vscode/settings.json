@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.in": "lmps",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}
