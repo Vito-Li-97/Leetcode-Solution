@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.in": "lmps",
+        "vector": "cpp",
+        "algorithm": "cpp"
+    }
+}

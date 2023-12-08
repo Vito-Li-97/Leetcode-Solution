@@ -39,8 +39,8 @@ class Solution {
 };
 
 int main() {
-  vector<vector<int>> matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
   vector<vector<int>> matrix = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
+  vector<vector<int>> matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
   Solution n1;
   vector<int> vec = n1.spiralOrder(matrix);
 
